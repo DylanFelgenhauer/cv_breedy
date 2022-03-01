@@ -132,8 +132,11 @@ button.nav__menu-social{
 .nav__menu-social,.nav__menu-contact{
     appearance: none;
     border: none;
-    background-color: white
+    background-color: white;
+    margin: 0 20px;
 }
 .nav__menu-social:hover,.nav__menu-contact:hover{
     color: #0062FF;
-}
+}.nav__menu-logo{
+    margin-right:50px;
+ }
