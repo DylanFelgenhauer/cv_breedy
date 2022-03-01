@@ -56,6 +56,7 @@ a{
 }
 h1{
     font-size: 22px;
+    text-transform: uppercase;
 }
 p{
     font-size: 18px;
@@ -110,18 +111,29 @@ button.nav__menu-social{
     font-size: 13px;
 }
 .content__identity{
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     font-family: Poppins,Helvetica,Arial,sans-serif;
-
+    line-height:80px;
 }
 .content__underline{
     text-decoration: underline;
     text-decoration-color: #0062FF;
     text-decoration-thickness: 0.5rem;
 }
+.content__background{
+    background-color: #DBF7FF;
+}
 .softskills__content--title{
     margin-top: 20px;
+}
+.nav__menu-social,.nav__menu-contact{
+    appearance: none;
+    border: none;
+    background-color: white
+}
+.nav__menu-social:hover,.nav__menu-contact:hover{
+    color: #0062FF;
 }
