@@ -140,3 +140,35 @@ button.nav__menu-social{
 }.nav__menu-logo{
     margin-right:50px;
  }
+.hidden{
+    display: none;
+}
+.footer__content{
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer h2{
+    font-size: 18px;
+}
+.footer__reseaux--col,.footer__social--col{
+    display: flex;
+    flex-direction: column;
+}
+.footer__reseaux--col span,.footer__social--col a{
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.footer__contact--col{
+    display: flex;
+    flex-direction: column;
+}
+.footer__contact--col span{
+    margin-bottom: 15px;
+}
+.footer__reseaux--flex,.footer__social--flex{
+    display: flex;
+}
+
