@@ -144,22 +144,22 @@ button.nav__menu-contact,button.nav__menu-social{
 }
 
 .footer h2{
-    font-size: 18px;
+    font-size: 1.125em;
 }
 .footer__reseaux--col,.footer__social--col{
     display: flex;
     flex-direction: column;
 }
 .footer__reseaux--col span,.footer__social--col a{
-    margin-right: 20px;
-    margin-bottom: 15px;
+    margin-right: 1.25em;
+    margin-bottom: 0.9375em;
 }
 .footer__contact--col{
     display: flex;
     flex-direction: column;
 }
 .footer__contact--col span{
-    margin-bottom: 15px;
+    margin-bottom: 0.9375em;
 }
 .footer__reseaux--flex,.footer__social--flex{
     display: flex;
@@ -186,8 +186,12 @@ button.nav__menu-contact,button.nav__menu-social{
     transform:translateY(0%);
     opacity: 1;
 }
-.aboutMe__content{
-    padding-left:20px;
+.aboutMe__content,.skills__content{
+    padding-left:1.25em;
+}
+.job__content,.softskills__content{
+    padding-right:1.25em;
+
 }
 .aboutMe,.job,.skills,.softskills{
     padding: 0 1.3em;
