@@ -237,6 +237,17 @@ button.nav__menu-contact,button.nav__menu-social{
     .btn{
         font-size:0.8em;
     }
+    #logo__footer{
+        display: none;
+    }
+    .footer{
+        padding:2.5em;
+    }
+    .mobile-flex{
+        display: flex;
+        flex-direction:column;
+    }
+
 
 }
 
