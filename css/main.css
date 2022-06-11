@@ -195,6 +195,18 @@ button.nav__menu-contact,button.nav__menu-social{
 }
 .aboutMe,.job,.skills,.softskills{
     padding: 0 1.3em;
+}
+
+@media screen and (max-width:1024px){
+    .aboutMe,.job,.softskills,.skills {
+        flex-direction: column-reverse;
+        margin-top: 3.125rem;
+    }
+    .section__content{
+        padding-left: 0;
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
 
 }
 
