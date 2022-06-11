@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ce316779-cfa4-4736-92b7-61cfe4e7c37f" name="Dylan.Felgenhauer">
+        <fileTransfer rootFolder="/home/clients/7c227c96ca0f638ded82183197dc02ab" accessType="SFTP" host="ov2rd.ftp.infomaniak.com" port="22" sshConfigId="558bda20-9008-40f8-993c-8a1a0213d79c" sshConfig="ov2rd_dylanf@ov2rd.ftp.infomaniak.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
