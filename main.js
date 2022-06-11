@@ -12,6 +12,10 @@
  const txt3 = document.querySelector(".skills__content");
  const txt4 = document.querySelector(".softskills__content");
 
+ const burger = document.querySelector(".burger");
+ const nav1 = document.querySelector(".nav__menu-bouton");
+ const nav2 = document.querySelector(".nav__menu2");
+
 function fListener() {
     window.addEventListener("load",()=>{
         animLoader.classList.add('active');
@@ -45,4 +49,12 @@ function fListener() {
             }
         })
 }
+function fClick(){
+    burger.addEventListener('click', ()=>{
+        nav1.classList.toggle('active');
+        nav2.classList.toggle('active');
+
+    })
+}
+fClick();
 fListener();

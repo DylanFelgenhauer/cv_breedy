@@ -196,6 +196,20 @@ button.nav__menu-contact,button.nav__menu-social{
 .aboutMe,.job,.skills,.softskills{
     padding: 0 1.3em;
 }
+.burger{
+    display:none;
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:30px;
+}
+.bar{
+    display:block;
+    width:25px;
+    height:3px;
+    margin: 5px auto;
+    background-color:black;
+}
 
 @media screen and (max-width:1024px){
     .aboutMe,.job,.softskills,.skills {
@@ -206,6 +220,25 @@ button.nav__menu-contact,button.nav__menu-social{
         padding-left: 0;
         max-width: 100%;
         margin-bottom: 2em;
+    }
+    .burger {
+        display: block;
+    }
+    .nav__menu-bouton{
+        transform:translateY(1em) translateX(25em);
+        box-shadow: 0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%), 0 -18px 60px -10px rgb(0 0 0 / 3%);
+        padding:3em 3em 6em 3em;
+        opacity:0;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav__menu2{
+        transform:translateY(4em) translateX(-8em);
+        padding:0;
+        opacity: 0;
+    }
+    .active{
+        opacity: 1;
     }
 }
 @media (max-width:768px) {
