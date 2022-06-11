@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="menu__mobile">
-    <nav class="nav__menu">
+    <nav class="nav__menu al">
         <div class="nav__menu1">
             <a href="#" class="nav__menu-logo">
                 <symbol id="logo">
@@ -38,17 +38,19 @@
     </nav>
 </div>
 <header class="identity__main">
-    <div class="identity__main--icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 69.455 69.455">
-            <path id="Icon_awesome-user-circle" data-name="Icon awesome-user-circle" d="M34.728.563A34.728,34.728,0,1,0,69.455,35.29,34.722,34.722,0,0,0,34.728.563Zm0,13.443A12.323,12.323,0,1,1,22.4,26.328,12.323,12.323,0,0,1,34.728,14.005Zm0,48.171a26.834,26.834,0,0,1-20.514-9.55,15.613,15.613,0,0,1,13.793-8.374,3.426,3.426,0,0,1,.994.154,18.54,18.54,0,0,0,5.727.966,18.47,18.47,0,0,0,5.727-.966,3.426,3.426,0,0,1,.994-.154,15.613,15.613,0,0,1,13.793,8.374A26.834,26.834,0,0,1,34.728,62.176Z" transform="translate(0 -0.563)" fill="#0062ff"/>
-        </svg>
+    <div class="identity__main--div al">
+        <div class="identity__main--icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 69.455 69.455">
+                <path id="Icon_awesome-user-circle" data-name="Icon awesome-user-circle" d="M34.728.563A34.728,34.728,0,1,0,69.455,35.29,34.722,34.722,0,0,0,34.728.563Zm0,13.443A12.323,12.323,0,1,1,22.4,26.328,12.323,12.323,0,0,1,34.728,14.005Zm0,48.171a26.834,26.834,0,0,1-20.514-9.55,15.613,15.613,0,0,1,13.793-8.374,3.426,3.426,0,0,1,.994.154,18.54,18.54,0,0,0,5.727.966,18.47,18.47,0,0,0,5.727-.966,3.426,3.426,0,0,1,.994-.154,15.613,15.613,0,0,1,13.793,8.374A26.834,26.834,0,0,1,34.728,62.176Z" transform="translate(0 -0.563)" fill="#0062ff"/>
+            </svg>
+        </div>
+        <div class="identity__main--title">
+            <h1 class="main__title" aria-level="1">
+                Curriculum vitae
+            </h1>
+        </div>
     </div>
-    <div class="identity__main--title">
-        <h1 class="main__title" aria-level="1">
-            Curriculum vitae
-        </h1>
-    </div>
-    <div class="identity__main--content">
+    <div class="identity__main--content al">
         <p class="content__identity">
             Découvrez <span class="content__background">tous les avantages</span> d'engager Dylan. &Eacute;tudiant en web et futur développeur<span class="content__underline"> Front End.</span>
         </p>
@@ -56,7 +58,7 @@
 </header>
 <div id="content">
     <section class="aboutMe">
-        <img src="/img/aboutme.jpg" alt="Image a propos de moi">
+        <img src="/img/aboutme.jpg" alt="Image a propos de moi" class="animImg">
         <div class="aboutMe__content section__content">
             <h2 class="aboutMe__content--title">
                 A propos de moi
@@ -68,7 +70,7 @@
         </div>
     </section>
     <section class="job">
-        <img src="/img/professionnel.jpg" alt="Image de mes expériences professionnelles">
+        <img src="/img/professionnel.jpg" alt="Image de mes expériences professionnelles" class="animImg2">
         <div class="job__content section__content">
             <h2 class="job__content--title">
                 Mes expériences professionnelles
@@ -77,10 +79,11 @@
                 Ma première expérience était en 2012, en tant que magasinier dans une industrie de métallurgie. A partir de 2013, jusqu'en 2017, je me suis retrouvé a travailler dans une friterie. Dans laquelle mon esprit travailleur n'a fait que de s'améliorer. J'ai même reçu une promotion !
                 On arrive en 2018, où j'ai commencé a devenir indépendant et à travailler en tant que peintre en bâtiment de mon côté. Ce qui a sacrément améliorer mon coté marketing avec le client.
             </p>
+            <a href="form.html" class="btn">Engager Dylan maintenant</a>
         </div>
     </section>
     <section class="skills">
-        <img src="/img/competence.jpg" alt="Image de mes compétences">
+        <img src="/img/competence.jpg" alt="Image de mes compétences" class="animImg3">
         <div class="skills__content section__content">
             <h2 class="skills__content--title">
                 Mes compétences
@@ -92,7 +95,7 @@
         </div>
     </section>
     <section class="softskills">
-        <img src="/img/softskills.png" alt="Image de mes softskills">
+        <img src="/img/softskills.png" alt="Image de mes softskills" class="animImg4">
         <div class="softskills__content section__content">
             <span class="softskills__content--important">important</span>
             <h2 class="softskills__content--title">
@@ -181,6 +184,6 @@
         </div>
     </div>
 </footer>
-
 </body>
+<script src="/main.js"></script>
 </html>

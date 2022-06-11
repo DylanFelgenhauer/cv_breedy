@@ -13,7 +13,7 @@ img{
     text-transform: uppercase;
     background-color: red;
     color: white;
-    padding:  5px 15px;
+    padding:  0.4em 1.15em;
     border-radius: 50px;
 }
 
@@ -24,11 +24,11 @@ h1,h2{
     font-family: Poppins,Helvetica,Arial,sans-serif;
 }
 .footer,section{
-    margin-top: 150px;
+    margin-top: 9.375em;
 }
 .footer{
     background-color: #F7F9FF;
-    padding: 75px 0;
+    padding: 4.6875em 0;
 }
 section{
     display: flex;
@@ -43,29 +43,26 @@ section{
     text-align: center;
 }
 .identity__main--icon{
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 .identity__main--title{
-    margin-bottom: 30px;
+    margin-bottom: 2em;
 }
-.identity__main--content{
-}
-
 a{
     text-decoration: none;
 }
 h1{
-    font-size: 22px;
+    font-size: 1.375em;
     text-transform: uppercase;
 }
 p{
-    font-size: 18px;
+    font-size: 1.125em;
 }
 .btn{
-    font-size: 16px;
+    font-size: 1em;
     background-color:blue;
-    border-radius: 15px;
-    padding:  15px 20px;
+    border-radius: 0.9375em;
+    padding:  0.9375em 1.25em;
     color: white;
     font-weight: bold;
 }
@@ -73,13 +70,13 @@ p{
     background-color: #287BFF;
 }
 h2{
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 0.71em;
 }
 .text--line{
     line-height: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 2.22em;
 }
 .nav__menu{
     display: flex;
@@ -98,25 +95,20 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
-button.nav__menu-contact{
-    font-size: 15px;
-}
-button.nav__menu-social{
-    font-size: 15px;
+button.nav__menu-contact,button.nav__menu-social{
+    font-size: 0.9375em;
 }
 .content__identity{
-    font-size: 46px;
-}
-.softskills__content--important{
-    font-size: 13px;
-}
-.content__identity{
+    font-size: 2.875em;
     font-weight: 900;
     text-align: center;
     max-width: 1100px;
     margin: 0 auto;
     font-family: Poppins,Helvetica,Arial,sans-serif;
     line-height:80px;
+}
+.softskills__content--important{
+    font-size: 0.8125em;
 }
 .content__underline{
     text-decoration: underline;
@@ -127,17 +119,18 @@ button.nav__menu-social{
     background-color: #DBF7FF;
 }
 .softskills__content--title{
-    margin-top: 20px;
+    margin-top: 1em;
 }
 .nav__menu-social,.nav__menu-contact{
     appearance: none;
     border: none;
     background-color: white;
-    margin: 0 20px;
+    margin: 0 1.33em;
 }
 .nav__menu-social:hover,.nav__menu-contact:hover{
     color: #0062FF;
-}.nav__menu-logo{
+}
+.nav__menu-logo{
     margin-right:50px;
  }
 .hidden{
@@ -170,5 +163,34 @@ button.nav__menu-social{
 }
 .footer__reseaux--flex,.footer__social--flex{
     display: flex;
+}
+.al,.animImg,.animImg2,.animImg3,.animImg4{
+    opacity:0;
+    transform: translateY(50%);
+    transition:transform 0.6s ease-in-out,opacity 0.6s ease-in-out;
+    transition-delay: 0.5s;
+}
+.animImg,.animImg2,.animImg3,.animImg4{
+    opacity:0;
+    transform: translateY(20%);
+    transition:transform 0.6s ease-in-out,opacity 0.6s ease-in-out;
+    transition-delay: 0.5s;
+}
+.aboutMe__content,.job__content,.skills__content,.softskills__content{
+    opacity:0;
+    transform: translateY(20%);
+    transition:transform 0.6s ease-in-out,opacity 0.6s ease-in-out;
+    transition-delay: 0.6s;
+}
+.active,.slide{
+    transform:translateY(0%);
+    opacity: 1;
+}
+.aboutMe__content{
+    padding-left:20px;
+}
+.aboutMe,.job,.skills,.softskills{
+    padding: 0 1.3em;
+
 }
 
