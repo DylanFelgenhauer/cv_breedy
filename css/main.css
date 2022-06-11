@@ -207,6 +207,36 @@ button.nav__menu-contact,button.nav__menu-social{
         max-width: 100%;
         margin-bottom: 2em;
     }
+}
+@media (max-width:768px) {
+    .identity__main--icon>svg{
+        width: 1.56rem;
+        height: 1.5rem;
+    }
+    .main__title{
+        font-size: 1em;
+    }
+    p.content__identity{
+        font-size:1.5em;
+        line-height:1.5em;
+    }
+    h2{
+        margin-bottom: 0.625rem;
+        font-size: 1.0625rem;
+        line-height: 1.5em;
+    }
+    p.text--line{
+        font-size:0.9em;
+        line-height:1.5em;
+    }
+    img{
+        max-width:100%;
+        width: 100%;
+        height: auto;
+    }
+    .btn{
+        font-size:0.8em;
+    }
 
 }
 
